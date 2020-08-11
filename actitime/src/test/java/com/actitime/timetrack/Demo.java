@@ -10,5 +10,9 @@ public class Demo {
 	public void run()
 	{
 	Reporter.log("Dhoni is a best captain", true);
+	Reporter.log("Dhoni is a best captain", true);
+	Reporter.log("Dhoni is a best captain", true);
+	Reporter.log("Dhoni is a best captain", true);
+	Reporter.log("Dhoni is a best captain", true);
 	}
 }
