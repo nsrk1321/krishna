@@ -9,11 +9,45 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">69</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num attn">2</td><td class="num">0</td><td class="num">91</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.actitime.timetrack.Demo</td><td><a href="#m0">run</a></td><td rowspan="1">1597139824778</td><td rowspan="1">16</td></tr><tr class="passedodd"><td rowspan="1">com.actitime.timetrack.Demo2</td><td><a href="#m1">run</a></td><td rowspan="1">1597139824800</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.actitime.timetrack.ActiInvalidLoginTest</td><td><a href="#m0">openBrowser</a></td><td rowspan="1">1597141124451</td><td rowspan="1">1</td></tr><tr class="failedodd"><td rowspan="1">com.actitime.timetrack.ValidLoginTest</td><td><a href="#m1">openBrowser</a></td><td rowspan="1">1597141124381</td><td rowspan="1">29</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.actitime.timetrack.ActiInvalidLoginTest</td><td><a href="#m2">closeBrowser</a></td><td rowspan="1">1597141124453</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.actitime.timetrack.ValidLoginTest</td><td><a href="#m3">closeBrowser</a></td><td rowspan="1">1597141124439</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.actitime.timetrack.ActiInvalidLoginTest</td><td><a href="#m4">InvalidLoginTest</a></td><td rowspan="1">1597141124453</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.actitime.timetrack.ValidLoginTest</td><td><a href="#m5">validLogin</a></td><td rowspan="1">1597141124437</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.actitime.timetrack.Demo</td><td><a href="#m6">run</a></td><td rowspan="1">1597141124443</td><td rowspan="1">1</td></tr><tr class="passedodd"><td rowspan="1">com.actitime.timetrack.Demo2</td><td><a href="#m7">run</a></td><td rowspan="1">1597141124448</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.actitime.timetrack.Demo#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.actitime.timetrack.Demo2#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">virat kholi is a best player</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.actitime.timetrack.ActiInvalidLoginTest#openBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.actitime.genericLib.FileLib.getProkeyValue(FileLib.java:42)
+	at com.actitime.genericLib.BaseTest.openBrowser(BaseTest.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.actitime.timetrack.ValidLoginTest#openBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.actitime.genericLib.FileLib.getProkeyValue(FileLib.java:42)
+	at com.actitime.genericLib.BaseTest.openBrowser(BaseTest.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.actitime.timetrack.ActiInvalidLoginTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.actitime.timetrack.ValidLoginTest#closeBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.actitime.timetrack.ActiInvalidLoginTest#InvalidLoginTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">InvalidLoginTestmethod SKIPPED<br/>Testmethod ENDED</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.actitime.genericLib.FileLib.getProkeyValue(FileLib.java:42)
+	at com.actitime.genericLib.BaseTest.openBrowser(BaseTest.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.actitime.timetrack.ValidLoginTest#validLogin</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">validLoginmethod SKIPPED</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:138)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:93)
+	at com.actitime.genericLib.FileLib.getProkeyValue(FileLib.java:42)
+	at com.actitime.genericLib.BaseTest.openBrowser(BaseTest.java:20)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.actitime.timetrack.Demo#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">runmethod started<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>Dhoni is a best captain<br/>runmethod passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.actitime.timetrack.Demo2#run</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">runmethod started<br/>virat kholi is a best player<br/>runmethod passed</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

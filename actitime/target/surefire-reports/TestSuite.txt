@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.099 sec - in TestSuite
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 1.743 sec <<< FAILURE! - in TestSuite
+openBrowser(com.actitime.timetrack.ValidLoginTest)  Time elapsed: 1.214 sec  <<< FAILURE!
+java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+
+openBrowser(com.actitime.timetrack.ActiInvalidLoginTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.io.FileNotFoundException: .\data\config.properties (The system cannot find the path specified)
+
