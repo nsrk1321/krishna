@@ -5,16 +5,40 @@
       <![CDATA[Dhoni is a best captain]]>
     </line>
     <line>
+      <![CDATA[Dhoni is a best captain]]>
+    </line>
+    <line>
+      <![CDATA[Dhoni is a best captain]]>
+    </line>
+    <line>
+      <![CDATA[Dhoni is a best captain]]>
+    </line>
+    <line>
+      <![CDATA[Dhoni is a best captain]]>
+    </line>
+    <line>
       <![CDATA[virat kholi is a best player]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="77" started-at="2020-08-11T04:38:32Z" finished-at="2020-08-11T04:38:32Z">
+  <suite name="Suite" duration-ms="69" started-at="2020-08-11T09:57:04Z" finished-at="2020-08-11T09:57:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="77" started-at="2020-08-11T04:38:32Z" finished-at="2020-08-11T04:38:32Z">
+    <test name="Test" duration-ms="69" started-at="2020-08-11T09:57:04Z" finished-at="2020-08-11T09:57:04Z">
       <class name="com.actitime.timetrack.Demo">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.actitime.timetrack.Demo@5b464ce8]" name="run" duration-ms="16" started-at="2020-08-11T04:38:32Z" finished-at="2020-08-11T04:38:32Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.actitime.timetrack.Demo@59a6e353]" name="run" duration-ms="16" started-at="2020-08-11T09:57:04Z" finished-at="2020-08-11T09:57:04Z">
           <reporter-output>
+            <line>
+              <![CDATA[Dhoni is a best captain]]>
+            </line>
+            <line>
+              <![CDATA[Dhoni is a best captain]]>
+            </line>
+            <line>
+              <![CDATA[Dhoni is a best captain]]>
+            </line>
+            <line>
+              <![CDATA[Dhoni is a best captain]]>
+            </line>
             <line>
               <![CDATA[Dhoni is a best captain]]>
             </line>
@@ -22,7 +46,7 @@
         </test-method> <!-- run -->
       </class> <!-- com.actitime.timetrack.Demo -->
       <class name="com.actitime.timetrack.Demo2">
-        <test-method status="PASS" signature="run()[pri:0, instance:com.actitime.timetrack.Demo2@57829d67]" name="run" duration-ms="1" started-at="2020-08-11T04:38:32Z" finished-at="2020-08-11T04:38:32Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:com.actitime.timetrack.Demo2@7a0ac6e3]" name="run" duration-ms="0" started-at="2020-08-11T09:57:04Z" finished-at="2020-08-11T09:57:04Z">
           <reporter-output>
             <line>
               <![CDATA[virat kholi is a best player]]>
